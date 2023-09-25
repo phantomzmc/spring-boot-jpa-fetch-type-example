@@ -1,0 +1,1 @@
+package com.example.demofetchtypejpa.repository;import com.example.demofetchtypejpa.entity.ProductInventoryEntity;import org.springframework.data.jpa.repository.JpaRepository;import java.util.UUID;public interface ProductInventoryRepository extends JpaRepository<ProductInventoryEntity, UUID> {    ProductInventoryEntity findByProductId(UUID productId);}

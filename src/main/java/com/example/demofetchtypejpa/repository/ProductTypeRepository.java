@@ -1,0 +1,1 @@
+package com.example.demofetchtypejpa.repository;import com.example.demofetchtypejpa.entity.ProductTypeEntity;import org.springframework.data.jpa.repository.JpaRepository;public interface ProductTypeRepository extends JpaRepository<ProductTypeEntity, Integer> {}
